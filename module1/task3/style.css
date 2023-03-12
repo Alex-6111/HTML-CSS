@@ -1,0 +1,30 @@
+ body{
+    background-color: rgb(217, 223, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 100px 0 100px;
+ }
+ h1{
+    text-align: center;
+    
+ }
+ h2{
+     text-align: center;
+ }
+ .spanBold{
+    font-weight: bold;
+ }
+ code{
+    font-size: 17px;
+    color: brown;
+    background-color:rgb(195, 202, 202);   
+ }
+ .italic{
+    font-style: italic;
+ }
+ .block{
+    display: block;
+ }
+ .green{
+    background-color: rgb(185, 187, 187);
+    color: green;
+ }
