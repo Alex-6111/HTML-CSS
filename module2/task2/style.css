@@ -1,0 +1,41 @@
+ 
+*{
+    margin: 10px;
+}
+ul{
+    background-color: rgb(210, 242, 242);
+}
+li:nth-child(even){
+	background-color: #92e3ee;  
+}
+li:nth-child(odd){
+	background-color: #44afe0;    
+}
+li.done{
+	background-color: #E0E0E0;   
+}
+li.done:before {
+	content: '\2714';  
+	margin-right: 10px;
+}
+li:not(.done):before {
+	content: '\2610';  
+	margin-right: 10px;
+}
+li:before {
+	font-size: 22px;
+	color: green;
+	font-weight: bold;
+	display: inline-block;
+	width: 20px;
+	text-align: center;
+	line-height: 20px;
+}
+li{
+    list-style-type: none;
+    font-size: 22px;
+}
+.redX{
+    color: red;
+     
+}

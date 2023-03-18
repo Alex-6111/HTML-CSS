@@ -1,0 +1,27 @@
+ 
+ul {
+    background-color: #e28282;
+    margin: 30px;
+    padding: 30px;
+    list-style-type: decimal;
+    counter-reset: my-counter;
+    padding-left: 40px;
+}
+ul li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #b05252;
+    
+}
+ul li:before {
+    counter-increment: my-counter;
+    content: counter(my-counter) ".";
+    position: absolute;
+    left: -30px;
+}
+span{
+    font-size: 20px;
+    background-color: #a72121; 
+}
+ 
+ 
