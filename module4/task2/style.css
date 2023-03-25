@@ -1,0 +1,51 @@
+.block {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+    padding: 0 auto;
+     
+  }
+  
+  .half {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    transition: all 2s;
+  }
+  
+  .left {
+    left: 0;
+    background-color: #7308ec;
+  }
+  
+  .right {
+    right: 0;
+    background-color: #7308ec;
+  }
+  
+  .block:hover .left {
+    transform: rotateY(70deg);
+  }
+  
+  .block:hover .right { 
+    transform: rotateY(70deg);
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    
+  }
+  
+  .block:hover .center {
+    opacity: 1;
+  }
+  
+ 
