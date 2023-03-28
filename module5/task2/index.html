@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="elements">
+            <h3>Inputs</h3>
+            <input type="text" id="text-noactive" class="text-noactive" placeholder="enter some text" disabled>
+            <label for="text-noactive"></label>
+            <input type="text" id="text-active-valid" class="text-active-valid" placeholder="valid text" spellcheck="true">
+            <label for="text-active-valid"></label>
+            <input type="text" id="text-active-invalid" class="text-active-invalid" placeholder="invalid text" spellcheck="false">
+            <label for="text-active-invalid"></label>
+        </div>
+        <div class="elements">
+            <h3>Check boxes</h3>
+            <input type="checkbox" id="checkbox-active" class="checkbox-active" checked>
+            <label for="checkbox-active"><span></span>Subscribe</label>
+            <input type="checkbox" id="checkbox-noactive" class="checkbox-noactive" checked>
+            <label for="checkbox-noactive"><span></span>Subscribe</label>
+        </div>
+        <div class="elements">
+            <h3>Radio buttons</h3>
+                <div class="radio-label-div">Gender: </div>
+                <input type="radio" id="male" class="radio-male" name="gender">
+                <label for="male"><span></span>Male</label>
+                <input type="radio" id="female" class="radio-female" name="gender">
+                <label for="female"><span></span>Female</label>
+        </div>
+        <div class="elements">
+            <h3>Buttons</h3>
+            <input type="button" class="button-active" value="Active">
+            <input type="button" class="button-active-hover" value="Hover">
+            <input type="button" class="button-danger" value="Danger">
+            <input type="button" class="button-danger-hover" value="Hover">
+            <input type="button" class="button-disabled" value="Disabled">
+            <input type="button" class="button-circle-plus" value="+">
+            <input type="button" class="button-circle-minus" value="-">
+        </div>
+        <div class="elements">
+            <h3>Text area</h3>
+            <textarea class="textarea">Enter some text...</textarea>
+        </div>
+    </form>
+
+</body>
+</html>
