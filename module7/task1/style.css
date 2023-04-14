@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+h1,h2,h3,h4{
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+img, span, input{
+    display: block;
+}
+.first_screen{
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+ 
+.bg_color{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+h2{
+    letter-spacing: 5px;
+}
+nav ul{
+    width: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: black;
+}
+.hero{
+    text-align: center;
+    padding-top: 300px;
+}
+h1{
+    font-size: 150px;
+}
+.hero span{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.second_screen{
+    padding: 50px 0;
+    height: 40vh;
+}
+.about{
+    padding-top: 50px;
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.about_text, .about_image{
+    width: 550px;
+}
+.about_text{
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+}
+.about_text span{
+    text-transform: none;
+}
+.about_text h3{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.label span{
+    margin: 0 10px;
+}
+ .line{
+    width: 140px;
+    height: 3px;
+    background-color: black;
+}
+ .about_image{
+    position: relative;
+}
+ .image_1{
+    width: 350px;
+    padding-left: 50px;
+}
+.image_2{
+    width: 250px;
+    position: absolute;
+    top: -50px;
+    left: 210px;
+}
+.third_screen{
+     
+    padding: 50px 0; 
+     
+}
+.th_image{
+    justify-content: center;
+    margin: 0 auto; 
+    display: flex;
+    width: 300px;
+    height: 500px;
+    position: relative;
+}
+.th_block{
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+ }
+ .th_block h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    border-bottom: 1px solid #505050;
+    width: 200px;
+    margin: 0 auto;
+ }
+ .th_block h3{
+    text-transform: uppercase;
+ }
+
+ .srv{
+    width: 280px;
+    margin: 0 auto;
+    display: inline-block;
+ }
+ .srv img{
+    width: 160px;
+    margin: 0 auto;
+     
+ }
+ .srv h3{
+    text-align: center;
+    padding: 15px;
+ }
+ .srv p{
+    text-align: center;
+    padding-bottom: 50px;
+ }
+ .fifth_screen{
+    
+    padding: 100px 0;
+    background-image: url(img/cafe.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+ .w_block{
+    
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+ }
+ .w_block h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    border-bottom: 1px solid #505050;
+    width: 200px;
+    margin: 0 auto;
+ }
+ .w_block h3{
+    text-transform: uppercase;
+ }
+ 
+ .six_screeen{
+    padding: 100px 0;  
+
+ }
+ .menu_block{
+    display: flex;
+    justify-content: space-between;
+ }
+ .menu{
+    width: 600px;
+    padding: 70px 0;
+    background-image: url(/img/food.png);
+    background-size: cover;
+ }
+ .b_block{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    color: white;
+ }
+ .b_block h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    border-bottom: 1px solid #505050;
+    width: 200px;
+    margin: 0 auto;
+ }
+ .b_block h3{
+    text-transform: uppercase;
+ }
+ .dishes{
+    width: 600px;
+    text-align: center;
+ }
+ .dishes h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    border-bottom: 1px solid #505050;
+    width: 200px;
+    margin: 0 auto;
+ }
+ .dishes h3{
+    text-transform: uppercase;
+    margin-bottom: 25px;
+ }
+ .dishes p{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+ }
+ .dishes a{
+    width: 200px;
+    display: block;
+    color: black;
+    border: 2px solid black;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 30px;
+ }
+ .map{
+     
+    padding: 70px 0;
+    background-image: url(/img/map.jpg);
+    background-size: cover;
+ }
+ .c_block{
+    background-color: rgba(247, 247, 247, 0.7);
+    padding: 50px 0;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    color: black;
+ }
+ .btn_top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+ }
+ .gourment{
+    padding-top: 50px;
+    background-color: black;
+    height: 500px;
+     
+ }
+ .gourment p{
+    width: 800px;
+    color: rgb(155, 148, 148);
+    margin: 0 auto;
+    text-align: center;
+    
+ }
+ .gourment h3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;  
+ }
+ .gourment input{
+    
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    
+ }
+ .footer{
+    background-color: #505050;
+    text-align: center;
+ }
