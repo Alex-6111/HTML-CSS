@@ -1,0 +1,109 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+   
+}
+h1, h2{
+  display: block;
+}
+.bodyy{
+  display: flex;
+  justify-content: space-between;
+  
+}
+header {
+  background-color: #a71010;
+  padding: 30px;
+  margin: 20px;
+  color: white;
+  height: 100px;  
+}
+header h1 {
+  align-items: center;
+}
+ 
+.menu{
+  height: 70px;
+  background-color: rgb(124, 5, 5);
+  color: white;
+  padding: 20px 0 0 30px;
+  margin: 20px;
+}
+ 
+.aside1 { 
+  width: 300px;
+  height: 130px;
+  color: white;
+  background-color: #991749;
+  padding: 20px;
+  margin: 0 0 0 20px;
+}
+.aside1 h2 {
+  text-align: center;
+  padding-top: 35px;
+}
+.aside2 { 
+  width: 300px;
+  height: 250px;
+  color: white;
+  background-color: #991749;
+  padding: 20px;
+  margin: 20px;
+}
+.aside2 h2 {
+  text-align: center;
+  padding-top: 35px;
+}
+.aside3 { 
+  width: 300px;
+  height: 450px;
+  color: white;
+  background-color: #991749;
+  padding: 20px;
+  margin: 0 20px  0 20px;
+}
+.aside3 h2 {
+  padding-top: 35px;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  margin: 90px;
+}
+.main{
+  width: 1300px;
+  height: 600px;
+  background-color: #991749;
+  color: white;
+}
+.main h2{
+  padding: 35px 0 0 90px;
+}
+.section{
+  width:1100px;
+  height: 200px;
+  background-color: #c4195a;
+  margin: 20px auto;
+}
+footer{
+  height: 70px;
+  background-color: rgb(124, 5, 5);
+  color: white;
+  padding: 20px 0 0 30px;
+  margin: 20px;
+}
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
